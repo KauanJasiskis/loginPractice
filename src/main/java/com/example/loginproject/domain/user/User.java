@@ -1,4 +1,4 @@
-package com.example.loginproject.domain;
+package com.example.loginproject.domain.user;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -23,6 +23,12 @@ public class User implements UserDetails{
     public String login;
     public String password;
     public UserRole role;
+
+    public User(String login, String encryptedPassword, UserRole role) {
+        this.login = login;
+        this.password = encryptedPassword;
+        this.role = role;
+    }
 
 
     @Override

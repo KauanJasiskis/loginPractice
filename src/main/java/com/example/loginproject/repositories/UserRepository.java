@@ -1,6 +1,6 @@
 package com.example.loginproject.repositories;
 
-import com.example.loginproject.domain.User;
+import com.example.loginproject.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 

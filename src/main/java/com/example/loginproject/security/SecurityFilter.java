@@ -1,6 +1,5 @@
 package com.example.loginproject.security;
 
-import com.example.loginproject.domain.UserRole;
 import com.example.loginproject.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
