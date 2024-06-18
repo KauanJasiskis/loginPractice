@@ -1,4 +1,3 @@
-```markdown
 # loginPractice
 
 Este é um projeto de exemplo que utiliza Spring Security, JWT (JSON Web Token), Flyway e PostgreSQL.
@@ -50,11 +49,6 @@ A aplicação estará disponível em `http://localhost:8080`.
 - **/auth/register**: Endpoint para registro de novos usuários. Requer um JSON com `username`, `password` e `Role` (ADMIN ou USER).
 - **/book**: Endpoint para registro de novos livros e leitura dos livros já registrados. É necessário estar autenticado e autorizado para ter acesso.
 
-## Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
 
-## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-```
